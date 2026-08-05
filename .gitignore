@@ -1,0 +1,19 @@
+# Generated data files -- regenerate locally, don't commit
+*.wav
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Environment export (share requirements.txt instead, this can be laptop-specific)
+environment.yml
